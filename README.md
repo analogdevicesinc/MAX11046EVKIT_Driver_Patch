@@ -5,7 +5,7 @@ This group of files is a patch of the MAX11046EVKIT software to allow the main p
 Please note that the instructions below assume that the MAX11046EVKIT software has already been downloaded and installed.  The download link is listed on the evaluation kit's [main quickview page](https://www.maximintegrated.com/en/products/analog/data-converters/analog-to-digital-converters/MAX11046EVKIT.html). Look for the link under the title "Software Support". 
 
 
-## MAX11046EVKIT LIBUSB Driver Patch Instructions (Windows 10):
+## MAX11046EVKIT LIBUSB Driver Patch Instructions (Windows 10 x64):
 1. Make sure no MAX11046EVKIT boards are connected to a USB port.  If one is plugged in, please unplug it. 
 2. Right-click on the Maxim_Evaluation_Kit_TDA_Device.inf file.  From the pop-up menu click on "Install". This will copy the correct libusb files into your system files and associate them with the MAX11046EVKIT board the next time the board is plugged into the computer.
   
@@ -31,3 +31,8 @@ Please note that the instructions below assume that the MAX11046EVKIT software h
 8. The MAX11046.EXE program should now connect to the MAX11046EVKIT and function correctly.
 
     ![screenshot of Evaluation Kit Running on Windows 10 "connected"](./images/EVKit_Connected_Small.png)
+
+## Licenses
+1.  The *.inf and *.cat files fall under the license reported in the license.txt file in this directory.
+2.  The libusb0.dll library file is distributed under the terms of the GNU Lesser General Public License (LGPL http://www.gnu.org/licenses/licenses.html#LGPL). It can also be found in the /license/libusb0_dll/license.txt file.
+3.  The libusb0.sys device driver file is distributed under the terms of the GNU General Public License (GPL http://www.gnu.org/licenses/licenses.html#GPL). It can also be found in the /license/libusb0_sys/license.txt file.
