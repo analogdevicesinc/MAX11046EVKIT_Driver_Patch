@@ -34,5 +34,5 @@ Please note that the instructions below assume that the MAX11046EVKIT software h
 
 ## Licenses
 1.  The *.inf and *.cat files fall under the license reported in the license.txt file in this directory.
-2.  The libusb0.dll library file is distributed under the terms of the GNU Lesser General Public License (LGPL http://www.gnu.org/licenses/licenses.html#LGPL). It can also be found in the /license/libusb0_dll/license.txt file.
-3.  The libusb0.sys device driver file is distributed under the terms of the GNU General Public License (GPL http://www.gnu.org/licenses/licenses.html#GPL). It can also be found in the /license/libusb0_sys/license.txt file.
+2.  The libusb0.dll library file is distributed under the terms of the GNU Lesser General Public License (LGPL http://www.gnu.org/licenses/licenses.html#LGPL). It can also be found in the /license/license.txt file.
+3.  The libusb0.sys device driver file is distributed under the terms of the GNU General Public License (GPL http://www.gnu.org/licenses/licenses.html#GPL). It can also be found in the /license/license.txt file.
